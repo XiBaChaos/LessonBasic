@@ -1,0 +1,19 @@
+table, tr, td, th{ 
+    border-collapse: separate;
+    border: 1px inset #3300FF;
+    width: 550px;  
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px; 
+    }  
+table1, tr1, th{ 
+    background:#660066;
+    color:#FFFFFF;
+    height: 50px;
+    font-size: 15px;
+}  
+.lesson3_td { 
+    text-align: center;  
+    background:#660066; 
+    color:#FFFFFF;  
+    width: 10%;
+    }  

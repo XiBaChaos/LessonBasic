@@ -1,0 +1,48 @@
+ 
+ h1{
+    padding: 10px;
+    text-align: center;
+    color: red;}
+body{
+    margin: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+div{
+    display:flex;
+}
+table {
+    border-collapse: collapse;
+    width: auto;
+}
+.list1{
+    list-style-image: url(../img/img1.jpg);
+}
+.list2{
+    list-style-image: url(../img/img2.jpg);
+}
+
+.list1 li, .list2 li{
+    text-decoration: none; 
+    text-align: center;
+    color: black;   
+    background-color: white; 
+    font-size: 14px;
+    border: 1px solid black;
+    padding: 10px; 
+    flex-basis: 100%;
+    transition: color 0.3s;
+    background-color: 0.3s;
+}
+
+a { 
+    color: black; 
+    text-decoration: none; 
+}
+li:hover{ 
+    background-color: yellowgreen; 
+    color: white;
+}                 
+a:hover{ 
+    background-color: yellowgreen; 
+    color: white;
+}                 
