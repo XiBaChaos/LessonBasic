@@ -1,15 +1,37 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0;}
+ h1{
+    padding: 10px;
+    text-align: center;
+    color: red;}
+ body{
+    margin: 50px 50px 0 50px;
+    font-family: 'Times New Roman', Times, serif;}
+ .div_lesson5{
+    display:flex;}
+.img1{
+    list-style-image: url(../img/img1.jpg);}
+.img2{
+    list-style-image: url(../img/img2.jpg);}
+.img1, .img2 {
+    flex-basis: 100%;}
+ .img1 li, .img2 li{
+    text-decoration: none; 
+    color: black;   
+    background-color: white;
+    font-size: 15pt;
+    border: 1px solid black;
+    padding: 10px; }
+body .div_lesson5 li{
+    margin: 0px 50px;
 }
-body {
-    font-family: 'Times New Roman', Times, serif;
-    margin: 50px 50px 0px 50px;}
-
-hr{
-    width: 300px;
-    margin: 10px;
-}
-th, tr, td{
-    padding: 5px;
-}
+.img1 li, .img2 li{
+    transition: color 0.3s;
+    background-color: 0.3s;}
+a { 
+    color: black; 
+    text-decoration: none;}
+li:hover, a:hover{ 
+    background-color: yellowgreen;
+    color: white;}
