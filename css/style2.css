@@ -1,7 +1,7 @@
 table, tr, td, th{ 
     border-collapse: separate;
     border: 1px inset #3300FF;
-    width: 550px;  
+    width: 450px;  
     font-family: 'Courier New', Courier, monospace;
     font-size: 12px; 
     }  

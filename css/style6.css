@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px 50px 0px 50px;}
+
+hr{
+    width: 300px;
+    margin: 10px;
+}
+th, tr, td{
+    padding: 5px;
+}

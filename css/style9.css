@@ -1,0 +1,13 @@
+body{
+    min-width: 600px;
+}
+article{
+    margin: 5px;
+    border: solid 2px aqua;
+    min-height: 120px;
+    min-width: 200px;
+    background-color: antiquewhite;
+}
+h1{
+    color: red;
+}
