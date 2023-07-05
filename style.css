@@ -1,0 +1,58 @@
+header {
+    text-align: center;
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	margin: 0px auto;
+    width: 960px;
+}
+
+.product {
+	display: inline-block;
+	margin: 20px;
+	text-align: center;
+}
+
+.product img {
+	max-width: 100%;
+	height: auto;
+}
+
+.product form {
+	margin-top: 10px;
+}
+
+.product input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+footer {
+	background-color: #ccc;
+	color: #333;
+	text-align: center;
+	padding: 10px;
+}

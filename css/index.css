@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    
+}
+header{
+    height: 200px;
+    background-color: blue;
+    text-align: center;
+    width: 960px;
+}
+.left{
+    width: 20%;
+    color: aqua;
+}
+.center{
+    width: 60%;
+    color: yellow;
+    
+}
+.right{
+    width: 20%;
+    color: antiquewhite;
+}
+.main-menu{
+    margin-top: 10px;
+}
+.main-menu li{
+    display: inline-block; /*căn ngang menu*/
+}
+section{
+    
+    padding: 60px;
+}
+article{
+    float: right;
+    width: 80%
+}
+aside{
+    width: 20%;
+    background-color: beige;
+    color: blue;
+}
+footer{
+    background-color: blue;
+    height: 300px; 
+    padding: 150px;
+}
