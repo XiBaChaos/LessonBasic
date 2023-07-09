@@ -43,7 +43,7 @@
     color: chocolate;
   }
 section{
-    height: 100vh;
+    height: 960px;
 }
 #thongtin{
     padding-top: 100px;
@@ -51,7 +51,7 @@ section{
 #home{
     background: linear-gradient(180deg, red, green);
     color: white;
-    padding: 200px;
+    padding: 20px;
 }
 #home h1{
     font-size: 50px;
